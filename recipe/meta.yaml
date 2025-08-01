@@ -1,13 +1,13 @@
 {% set name = "crystal-toolkit" %}
-{% set version = "2024.10.22" %}
+{% set version = "2025.7.31" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crystal_toolkit-{{ version }}.tar.gz
-  sha256: 6914ef15f6e105a51dc2f892670feeb0e92c86d3b4ad88357c27c3cfd3b20cf8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/crystal_toolkit-{{ version }}.tar.gz
+  sha256: e031cdb0ef6fd9951cff94a2adb22cc77b77517780ded8491b69f9e46a3bd74b
 
 build:
   noarch: python
